@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    GradualSlider *ls = [[GradualSlider alloc] initWithFrame:CGRectMake(40, 40, LS_SLIDER_SIZE, LS_SLIDER_SIZE)];
+    GradualSlider *ls = [[GradualSlider alloc] initWithFrame:CGRectMake(10, 40, LS_SLIDER_SIZE, LS_SLIDER_SIZE)];
     [ls addTarget:self action:@selector(sliderValueChange:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:ls];
 }

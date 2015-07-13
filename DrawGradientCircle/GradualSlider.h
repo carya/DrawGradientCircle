@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define LS_SLIDER_SIZE    200 
+#define LS_SLIDER_SIZE    280
 
 @interface GradualSlider : UIControl
 
